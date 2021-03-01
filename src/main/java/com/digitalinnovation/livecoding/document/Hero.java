@@ -9,8 +9,6 @@ import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTable;
 @Data
 @NoArgsConstructor
 @DynamoDBTable(tableName ="Heroes_Api_Table")
-@Getter
-@Setter
 @AllArgsConstructor
 public class Hero {
 
